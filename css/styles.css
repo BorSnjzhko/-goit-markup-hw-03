@@ -219,26 +219,24 @@ img {
 
 /* Особенности (features)   */
 .features {
-  padding-top: 76px;
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .container-features {
   margin-left: auto;
   margin-right: auto;
-  padding: 0 7px;
+  padding: 0 15px;
 
   width: 1200px;
 }
 
 .features-list {
   display: flex;
+  margin-right: -30px;
 }
 
 .features .item {
-  width: calc((100% - 90px) / 4);
-}
-
-.features .item:not(:last-child) {
+  width: calc((100% - 120px) / 4);
   margin-right: 30px;
 }
 
@@ -265,7 +263,7 @@ img {
 
 
 .images {
-  margin-bottom: 94px;
+  padding-bottom: 94px;
 }
 
 .images .title {
@@ -311,7 +309,7 @@ img {
 /* Секция с фотографиями команды */
 
 .team {
-  padding-top: 186px;
+  padding-top: 94px;
   padding-bottom: 94px;
   margin-right: auto;
   margin-left: auto;
@@ -483,10 +481,9 @@ img {
 /* Футер */
 
 .footer {
-  padding: 60px 60px;
+  padding: 60px 0px;
   margin-right: auto;
   margin-left: auto;
-  max-width: 1600px;
   background-color: var(--secondary-background-color);
 }
 
@@ -522,7 +519,7 @@ img {
 
 
 .contacts-footer .link {
-  margin-bottom: 9px;
+  margin-top: 9px;
   text-decoration: none;
   
   color:var(--secondary-addressdown-color);
